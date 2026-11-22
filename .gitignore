@@ -1,0 +1,19 @@
+# SQL Server files (share the .bak backup through Drive, not Git)
+*.mdf
+*.ldf
+*.bak
+
+# Visual Studio / SSIS
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Operating system
+.DS_Store
+Thumbs.db
