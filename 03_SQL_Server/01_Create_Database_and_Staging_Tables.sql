@@ -1,6 +1,6 @@
-CREATE DATABASE EduPracticeDW
-ON PRIMARY (NAME = EduPracticeDW_data, FILENAME = 'A:\SQLData\Education.mdf', SIZE = 64MB, FILEGROWTH = 64MB)
-LOG ON     (NAME = EduPracticeDW_log,  FILENAME = 'A:\SQLData\Education_log.ldf', SIZE = 32MB, FILEGROWTH = 32MB);
+CREATE DATABASE Education
+ON PRIMARY (NAME = Education_data, FILENAME = 'A:\SQLData\Education.mdf', SIZE = 64MB, FILEGROWTH = 64MB)
+LOG ON     (NAME = Education_log,  FILENAME = 'A:\SQLData\Education_log.ldf', SIZE = 32MB, FILEGROWTH = 32MB);
 GO
 
 USE Education;

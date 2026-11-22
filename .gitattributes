@@ -1,8 +1,0 @@
-* text=auto
-# keep the CSV files byte-for-byte (SSIS expects the {LF} line ending)
-*.csv -text
-*.pbix binary
-*.bak binary
-*.png binary
-*.pdf binary
-*.zip binary
